@@ -20,8 +20,12 @@
     "eject": "react-scripts eject",
     "postbuild": "react-snap"
   },
-  "bin": {
-    "react-snap": "./run.js"
+  "reactSnap": {
+    "source": "dist",
+    "minifyHtml": {
+      "collapseWhitespace": false,
+      "removeComments": false
+    }
   },
   "eslintConfig": {
     "extends": [
