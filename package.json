@@ -21,7 +21,7 @@
     "postbuild": "react-snap"
   },
   "reactSnap": {
-    "source": "dist",
+    "source": "./dist",
     "minifyHtml": {
       "collapseWhitespace": false,
       "removeComments": false
