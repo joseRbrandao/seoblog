@@ -21,11 +21,13 @@
     "postbuild": "react-snap"
   },
   "reactSnap": {
-    "react-snap": "^1.23.0",
     "puppeteerArgs": [
       "--no-sandbox",
       "--disable-setuid-sandbox"
     ]
+  },
+  "bin": {
+    "react-snap": "./run.js"
   },
   "eslintConfig": {
     "extends": [
