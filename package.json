@@ -20,8 +20,8 @@
     "eject": "react-scripts eject",
     "postbuild": "react-snap"
   },
-  "reactSnap": {
-    "react-snap": "^1.23.0"
+  "bin": {
+    "react-snap": "./run.js"
   },
   "eslintConfig": {
     "extends": [
