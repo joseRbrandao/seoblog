@@ -21,13 +21,7 @@
     "postbuild": "react-snap"
   },
   "reactSnap": {
-    "puppeteerArgs": [
-      "--no-sandbox",
-      "--disable-setuid-sandbox"
-    ]
-  },
-  "bin": {
-    "react-snap": "./run.js"
+    "react-snap": "^1.23.0"
   },
   "eslintConfig": {
     "extends": [
@@ -46,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-snap": "^1.23.0"
   }
 }
