@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-import Dogs from "./Pages/Dogs";
+import ReactHelmet from "./Pages/ReactHelmet";
 
 const App = () => (
   <BrowserRouter>
@@ -11,11 +11,11 @@ const App = () => (
       <br />
       <Link to="/about"> About</Link>
       <br />
-      <Link to="/dogs"> Dogs</Link>
+      <Link to="/reacthelmet"> React Helmet</Link>
       <Routes>
         <Route path="/" element={Home} />
         <Route path="/about" element={About} />
-        <Route path="/dogs" element={Dogs} />
+        <Route path="/reacthelmet" element={ReactHelmet} />
       </Routes>
     </div>
   </BrowserRouter>

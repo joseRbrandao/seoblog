@@ -1,32 +1,35 @@
 import { Helmet } from "react-helmet";
 
-const Home = () => {
+const ReactHelmet = () => {
   return (
     <div>
       <Helmet>
-        <title>Estudando SEO e suas melhores práticas</title>
+        <title>React Helmet-Como utilizar</title>
         <meta
           name="description"
-          content="Aqui eu estou testanto a descrição META e se está funcionando"
+          content="Como utilizar o React Helmet para ajudar no SEO do seu site"
         />
         <meta
           name="keywords"
-          content="seo, sitemap, robot.txt, meta tags, search console, blog"
+          content="React Helmt, SEO, meta tags, search console, "
         />
       </Helmet>
-      <span
+      <div
         style={{
           height: "100vh",
           width: "100%",
           background: "blue",
           display: "flex",
+          flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
         }}
       >
-        Page Home
-      </span>
+        <h1>React Helmet</h1>
+        <h3>Como utilizar o React Helmet para ajudar no SEO do seu site</h3>
+      </div>
     </div>
   );
 };
-export default Home();
+
+export default ReactHelmet();

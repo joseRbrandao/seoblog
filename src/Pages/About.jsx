@@ -10,6 +10,10 @@ const About = () => {
           content="estudo de caso sobre SEO. metatags, title, description, react-helmet, reat-router-dom, 
               google search console, site map, robot.tsx."
         />
+        <meta
+          name="keywords"
+          content="seo, sitemap, robot.txt, meta tags, search console"
+        />
       </Helmet>
       <div
         style={{
