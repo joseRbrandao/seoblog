@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       <Helmet>
-        <title>Blog para testar praticas de SEO</title>
+        <title>Blog para por em praticas de SEO</title>
         <meta
           name="description"
           content="estudo de caso sobre SEO. metatags, title, description, react-helmet, reat-router-dom, 
