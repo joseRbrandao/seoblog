@@ -13,9 +13,9 @@ const App = () => (
       <br />
       <Link to="/reacthelmet"> React Helmet</Link>
       <Routes>
-        <Route path="/" element={Home} />
-        <Route path="/about" element={About} />
-        <Route path="/reacthelmet" element={ReactHelmet} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/reacthelmet" element={<ReactHelmet />} />
       </Routes>
     </div>
   </HashRouter>
