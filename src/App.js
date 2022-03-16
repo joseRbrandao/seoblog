@@ -8,15 +8,15 @@ const App = () => (
     <div className="App">
       <h1>Hello Romary</h1>
 
-      <Link to="/#/"> Home</Link>
+      <Link to="/"> Home</Link>
       <br />
-      <Link to="/#/about"> About</Link>
+      <Link to="/about"> About</Link>
       <br />
-      <Link to="/#/reacthelmet"> React Helmet</Link>
+      <Link to="/reacthelmet"> React Helmet</Link>
       <Routes>
-        <Route path="/#/" element={Home} />
-        <Route path="/#/about" element={About} />
-        <Route path="/#/reacthelmet" element={ReactHelmet} />
+        <Route path="/" element={Home} />
+        <Route path="/about" element={About} />
+        <Route path="/reacthelmet" element={ReactHelmet} />
       </Routes>
     </div>
   </HashRouter>
