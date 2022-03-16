@@ -1,10 +1,10 @@
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import { HashRouter, Route, Routes, Link } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import ReactHelmet from "./Pages/ReactHelmet";
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <div className="App">
       <h1>Hello Romary</h1>
       <Link to="/"> Home</Link>
@@ -18,7 +18,7 @@ const App = () => (
         <Route path="/reacthelmet" element={ReactHelmet} />
       </Routes>
     </div>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
