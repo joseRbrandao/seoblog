@@ -7,6 +7,7 @@ const App = () => (
   <HashRouter>
     <div className="App">
       <h1>Hello Romary</h1>
+
       <Link to="/"> Home</Link>
       <br />
       <Link to="/about"> About</Link>
