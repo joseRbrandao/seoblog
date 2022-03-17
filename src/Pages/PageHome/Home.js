@@ -1,6 +1,13 @@
 import { Helmet } from "react-helmet";
 import { Header } from "../../components/Header";
-import { Title, Subtitle, Main } from "./style";
+import {
+  Container,
+  Content,
+  Title,
+  Subtitle,
+  Main,
+  ImageContainer,
+} from "./style";
 import iconseo from "../../assets/seo.svg";
 
 const Home = () => {
@@ -18,11 +25,12 @@ const Home = () => {
         />
       </Helmet>
       <Header />
-      <Title>
-        Resumão sobre o conteúdo do Blog
-        <Subtitle>
-          O blog foi criado para servir como um laboratório. Colocar em práticas
-          conceitos e ferramentas de SEO.
+      <Container>
+        <Content>
+          <Title>Resumão sobre o conteúdo do Blog</Title>
+          <Subtitle>
+            Ferramentas utiliadas no site para melhorar o SEO.
+          </Subtitle>
           <Main>
             <div>
               <ul>
@@ -40,14 +48,14 @@ const Home = () => {
               </ul>
             </div>
           </Main>
-        </Subtitle>
-      </Title>
-      <Main>
-        <img
-          src={iconseo}
-          alt="icone com a sigla SEO. Em volta da sigla contém as palavras meta, links, web, url, authority, description, ranking tags, title, bing, yahoo, google"
-        ></img>
-      </Main>
+          <ImageContainer>
+            <img
+              src={iconseo}
+              alt="icone com a sigla SEO. Em volta da sigla contém as palavras meta, links, web, url, authority, description, ranking tags, title, bing, yahoo, google"
+            ></img>
+          </ImageContainer>
+        </Content>
+      </Container>
     </div>
   );
 };
