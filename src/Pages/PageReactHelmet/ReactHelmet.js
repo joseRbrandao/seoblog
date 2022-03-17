@@ -14,17 +14,7 @@ const ReactHelmet = () => {
           content="React Helmt, SEO, meta tags, search console, "
         />
       </Helmet>
-      <div
-        style={{
-          height: "100vh",
-          width: "100%",
-          background: "blue",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+      <div>
         <h1>React Helmet</h1>
         <h3>Como utilizar o React Helmet para ajudar no SEO do seu site</h3>
       </div>

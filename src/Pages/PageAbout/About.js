@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       <Helmet>
-        <title>Blog para por em praticas de SEO</title>
+        <title>About</title>
         <meta
           name="description"
           content="estudo de caso sobre SEO. metatags, title, description, react-helmet, reat-router-dom, 
@@ -15,18 +15,7 @@ const About = () => {
           content="seo, sitemap, robot.txt, meta tags, search console"
         />
       </Helmet>
-      <div
-        style={{
-          height: "100vh",
-          width: "100%",
-          background: "blue",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        Page About
-      </div>
+      <h1>Page About</h1>
     </div>
   );
 };

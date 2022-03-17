@@ -1,10 +1,12 @@
 import { Helmet } from "react-helmet";
+import { GlobalStyle } from "../../styles/global";
+import { Header } from "../../components/Header";
 
 const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Estudando SEO e suas melhores práticas</title>
+        <title>HOME - Laboratório SEO</title>
         <meta
           name="description"
           content="Aqui eu estou testanto a descrição META e se está funcionando"
@@ -14,19 +16,10 @@ const Home = () => {
           content="seo, sitemap, robot.txt, meta tags, search console, blog"
         />
       </Helmet>
-      <span
-        style={{
-          height: "100vh",
-          width: "100%",
-          background: "blue",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        Page Home
-      </span>
+      <Header />
+      <GlobalStyle />
     </div>
   );
 };
+
 export default Home();
