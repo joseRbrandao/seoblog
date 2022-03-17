@@ -1,4 +1,4 @@
 https://misty-fog-5874.on.fleek.co/#
 https://misty-fog-5874.on.fleek.co/#/about
 https://misty-fog-5874.on.fleek.co/#/searchconsole
-https://misty-fog-5874.on.fleek.co/robot.txt
+https://misty-fog-5874.on.fleek.co/robots.txt
