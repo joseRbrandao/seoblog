@@ -1,4 +1,6 @@
 import { Helmet } from "react-helmet";
+import { Header } from "../../components/Header";
+import { Container, Content } from "./style";
 
 const About = () => {
   return (
@@ -15,7 +17,12 @@ const About = () => {
           content="seo, sitemap, robot.txt, meta tags, search console"
         />
       </Helmet>
-      <h1>Page About</h1>
+      <Header />
+      <Container>
+        <Content>
+          <h1>Page About</h1>
+        </Content>
+      </Container>
     </div>
   );
 };

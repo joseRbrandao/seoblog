@@ -36,14 +36,16 @@ export const GlobalStyle = createGlobalStyle`
       margin-right: 1rem;
   }
 
-  body, input, textarea, button {
+  body, input, textarea, button, a {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     color: var(--gray-50);
+    text-decoration: none;
   }
   h1, h2, h3, h4, h5, h6, strong {
       color: var(--gray-50);
       font-weight: 600;
+      text-decoration: none;
   }
   button {
       cursor: pointer;

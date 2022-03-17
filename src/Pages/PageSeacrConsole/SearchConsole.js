@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 
-const ReactHelmet = () => {
+const SearchConsole = () => {
   return (
     <div>
       <Helmet>
@@ -15,11 +15,11 @@ const ReactHelmet = () => {
         />
       </Helmet>
       <div>
-        <h1>React Helmet</h1>
-        <h3>Como utilizar o React Helmet para ajudar no SEO do seu site</h3>
+        <h1>SearchConsole</h1>
+        <h3>Como utilizar o SearchConsole para ajudar no SEO do seu site</h3>
       </div>
     </div>
   );
 };
 
-export default ReactHelmet();
+export default SearchConsole();

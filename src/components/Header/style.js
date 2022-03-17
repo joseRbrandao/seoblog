@@ -2,37 +2,31 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background: var(--header);
-  margin-top: 3.75rem;
+  margin-top: 1.75rem;
 `;
 
 export const Content = styled.div`
   max-width: 1120px;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 `;
 
-export const Title = styled.header`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+export const Title = styled.div`
   font-size: 2rem;
-  margin-top: 1rem;
+  font-weight: 600;
 `;
 
-export const Subtitle = styled.div`
+export const ButtonContainer = styled.div`
   margin-top: 1.75rem;
-  font-size: 1rem;
-`;
-
-export const Main = styled.main`
-  margin: 0 auto;
-  margin-top: 3.75rem;
-  max-width: 30rem;
-  max-height: 20rem;
+  width: 100%;
+  height: 3rem;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  background: var(--purple);
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
 `;
