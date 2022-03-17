@@ -27,7 +27,7 @@ const Home = () => {
       <Header />
       <Container>
         <Content>
-          <Title>Resumão sobre o conteúdo do Blog</Title>
+          <Title>Blog - LAB SEO</Title>
           <Subtitle>
             Ferramentas utiliadas no site para melhorar o SEO.
           </Subtitle>
@@ -35,7 +35,7 @@ const Home = () => {
             <div>
               <ul>
                 <li>React Helmet</li>
-                <li>Google Seacrh Console</li>
+                <li>Search Console</li>
                 <li>Robots.txt</li>
               </ul>
             </div>

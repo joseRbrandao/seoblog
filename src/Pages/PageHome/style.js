@@ -31,7 +31,8 @@ export const Subtitle = styled.div`
 export const Main = styled.main`
   margin: 0 auto;
   margin-top: 1rem;
-  width: 920px;
+  width: 100%;
+  max-width: 920px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -42,4 +43,14 @@ export const ImageContainer = styled.div`
   width: 720px;
   height: 500px;
   margin-top: 2rem;
+
+  @media (max-width: 920px) {
+    width: 500px;
+    height: 300px;
+  }
+
+  @media (max-width: 500px) {
+    width: 200px;
+    height: 100px;
+  }
 `;
