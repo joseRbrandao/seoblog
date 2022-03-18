@@ -23,26 +23,6 @@ const Home = () => {
           name="keywords"
           content="seo, sitemap, robot.txt, meta tags, search console, blog"
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://misty-fog-5874.on.fleek.co/" />
-        <meta property="og:title" content="Blog SEO" />
-        <meta
-          property="og:description"
-          content="Ações Basicas para SEO da sua página"
-        />
-        <meta property="og:image" content={iconseo} />
-
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:url"
-          content="https://misty-fog-5874.on.fleek.co/"
-        />
-        <meta property="twitter:title" content="Blog SEO" />
-        <meta
-          property="twitter:description"
-          content="Ações Basicas para SEO da sua página"
-        />
-        <meta property="twitter:image" content={iconseo}></meta>
       </Helmet>
       <Header />
       <Container>
