@@ -29,7 +29,6 @@ export const Subtitle = styled.div`
 `;
 
 export const Main = styled.main`
-  margin: 0 auto;
   margin-top: 1rem;
   width: 100%;
   max-width: 920px;
@@ -37,6 +36,15 @@ export const Main = styled.main`
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+
+  @media (max-width: 375px) {
+    flex-direction: column;
+    justify-content: center;
+  }
+`;
+
+export const ContentList = styled.div`
+  margin-top: 0.5rem;
 `;
 
 export const ImageContainer = styled.div`

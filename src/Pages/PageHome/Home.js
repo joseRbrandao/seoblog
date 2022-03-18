@@ -7,6 +7,7 @@ import {
   Subtitle,
   Main,
   ImageContainer,
+  ContentList,
 } from "./style";
 import iconseo from "../../assets/seo.svg";
 
@@ -32,21 +33,21 @@ const Home = () => {
             Ferramentas utiliadas no site para melhorar o SEO.
           </Subtitle>
           <Main>
-            <div>
+            <ContentList>
               <ul>
                 <li>React Helmet</li>
                 <li>Search Console</li>
                 <li>Robots.txt</li>
               </ul>
-            </div>
+            </ContentList>
 
-            <div>
+            <ContentList>
               <ul>
                 <li>URL semântica</li>
-                <li>Meta Description</li>
+                <li>Meta Tags</li>
                 <li>Sitemap</li>
               </ul>
-            </div>
+            </ContentList>
           </Main>
           <ImageContainer>
             <img

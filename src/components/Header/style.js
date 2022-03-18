@@ -26,7 +26,15 @@ export const ButtonContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: var(--purple);
+  background: #00b0f0;
   border-radius: 0.5rem;
   font-size: 1.25rem;
+  margin-left: 0.75rem;
+
+  strong {
+    transition: 0.2s;
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
 `;

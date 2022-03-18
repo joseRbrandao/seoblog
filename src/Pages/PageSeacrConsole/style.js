@@ -21,6 +21,14 @@ export const Title = styled.header`
   font-size: 2rem;
 `;
 
+export const TitleQuestion = styled.div`
+  font-size: 2rem;
+`;
+
+export const Answer = styled.div`
+  margin: 0.2rem 0 1rem 0;
+`;
+
 export const Subtitle = styled.div`
   margin-top: 1.75rem;
   font-size: 1rem;
@@ -35,14 +43,6 @@ export const Main = styled.main`
   flex-direction: column;
   align-items: left;
   justify-content: space-evenly;
-
-  strong {
-    font-size: 2rem;
-  }
-
-  span {
-    margin: 0.2rem 0 1rem 0;
-  }
 `;
 
 export const Diviser = styled.hr`

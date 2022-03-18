@@ -1,6 +1,15 @@
 import { Helmet } from "react-helmet";
 import { Header } from "../../components/Header";
-import { Container, Content, Title, Subtitle, Main, Diviser } from "./style";
+import {
+  Container,
+  Content,
+  Title,
+  Subtitle,
+  Main,
+  Diviser,
+  TitleQuestion,
+  Answer,
+} from "./style";
 
 const SearchConsole = () => {
   return (
@@ -27,35 +36,35 @@ const SearchConsole = () => {
           </Subtitle>
           <Diviser />
           <Main>
-            <strong>O que é Google Search Console?</strong>
-            <span>
+            <TitleQuestion>O que é Google Search Console?</TitleQuestion>
+            <Answer>
               O Google Search Console é aplictivo a custo zero onde
               desenvolvedores web podem gerenciar e melhorar a indexação do seu
               site, otimizar a visibilidade e assim conseguir uma ótimoa posição
               nos rankings dos buscadores.
-            </span>
+            </Answer>
 
-            <strong>
+            <TitleQuestion>
               Como utilizar o Search Console para melhora o SEO da nossa página?
-            </strong>
-            <span>
+            </TitleQuestion>
+            <Answer>
               Dentro do Search Console podemos analisar fatores básicos, mas que
               são extrema importância para tornar nossa página amigável aos
               buscadores. Solicitar indexão da URl no buscador do Google,
               realizar teste da URl publicada e validar se ela é compativel com
               dispositivos móveis e desktop, inserir o Sitemap da sua página
               além de analisar algumas métricas.
-            </span>
+            </Answer>
 
-            <strong>Métricas Importantes</strong>
-            <span>
+            <TitleQuestion>Métricas Importantes</TitleQuestion>
+            <Answer>
               A ferramenta da Google nos oferece paineis onde podemos analisar
               métricas como desempenho e índice de interações com o usuário. A
               métrica de desenhanho é detalhada dem vários pontos, como tempo de
               carregamento, quanto tempo leva para carrger o primeiro conteúdo e
               essas informações podem ser analisads entre dados de origem do
               Desktop ou smatphones.
-            </span>
+            </Answer>
           </Main>
         </Content>
       </Container>
