@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   button {
     font-size: 1rem;
+    font-weight: 600;
     /* margin: 0 0.75rem; */
     color: var(--blue-500);
     border: none;

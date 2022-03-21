@@ -9,16 +9,17 @@ import {
   Diviser,
   TitleQuestion,
   Answer,
+  ContainerFont,
 } from "./style";
 
 const SearchConsole = () => {
   return (
     <div>
       <Helmet>
-        <title>React Helmet-Como utilizar</title>
+        <title>Search Console - Como utilizar</title>
         <meta
           name="description"
-          content="Como utilizar o React Helmet para ajudar no SEO do seu site"
+          content="Pontos que devem ser levados em consideraçao para melhorar o SEO de sua página utilizando o Google Search Console"
         />
         <meta
           name="keywords"
@@ -65,6 +66,17 @@ const SearchConsole = () => {
               essas informações podem ser analisads entre dados de origem do
               Desktop ou smatphones.
             </Answer>
+
+            <Diviser />
+            <Subtitle>Fonte</Subtitle>
+            <ContainerFont>
+              <span class="author">Documentação Google Console: </span>
+              <a href="https://developers.google.com/search/docs/beginner/search-console">
+                <cite>
+                  https://developers.google.com/search/docs/beginner/search-console
+                </cite>
+              </a>
+            </ContainerFont>
           </Main>
         </Content>
       </Container>

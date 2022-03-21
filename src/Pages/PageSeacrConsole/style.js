@@ -21,15 +21,15 @@ export const Title = styled.header`
   font-size: 2rem;
 `;
 
-export const TitleQuestion = styled.div`
+export const TitleQuestion = styled.span`
   font-size: 2rem;
 `;
 
-export const Answer = styled.div`
+export const Answer = styled.span`
   margin: 0.2rem 0 1rem 0;
 `;
 
-export const Subtitle = styled.div`
+export const Subtitle = styled.span`
   margin-top: 1.75rem;
   font-size: 1rem;
   max-width: 1120px;
@@ -50,4 +50,11 @@ export const Diviser = styled.hr`
   border: none;
   border-top: 3px solid #bbb;
   width: 100%;
+`;
+
+export const ContainerFont = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 600;
 `;
