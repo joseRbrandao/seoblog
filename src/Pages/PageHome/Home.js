@@ -15,10 +15,11 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>HOME - Laboratório SEO</title>
+        <title>BLOG SEO - O básico do SEO</title>
+        <meta name="title" content="BLOG SEO - O básico do SEO" />
         <meta
           name="description"
-          content="Aqui eu estou testanto a descrição META e se está funcionando"
+          content="Tarefas básicas para tornar o SEO do seu site inicialmente bom"
         />
         <meta
           name="keywords"
