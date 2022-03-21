@@ -21,39 +21,36 @@ const SearchConsole = () => {
           name="description"
           content="Pontos que devem ser levados em consideraçao para melhorar o SEO de sua página utilizando o Google Search Console"
         />
-        <head>
-          <meta
-            name="keywords"
-            content="Google Search Console, SEO, meta tags, search console, "
-          />
-          <meta property="og:type" content="website" />
-          <meta
-            property="og:url"
-            content="https://misty-fog-5874.on.fleek.co/"
-          />
-          <meta property="og:title" content="Search Console - Como utilizar" />
-          <meta
-            property="og:description"
-            content="Pontos que devem ser levados em consideraçao para melhorar o SEO de sua página utilizando o Google Search Console"
-          />
-          <meta property="og:image" content="../src/assets/seo.svg" />
-
-          <meta property="twitter:card" content="summary_large_image" />
-          <meta
-            property="twitter:url"
-            content="https://misty-fog-5874.on.fleek.co/"
-          />
-          <meta
-            property="twitter:title"
-            content="Search Console - Como utilizar"
-          />
-          <meta
-            property="twitter:description"
-            content="Pontos que devem ser levados em consideraçao para melhorar o SEO de sua página utilizando o Google Search Console"
-          />
-          <meta property="twitter:image" content="../src/assets/seo.svg" />
-        </head>
       </Helmet>
+      <head>
+        <meta
+          name="keywords"
+          content="Google Search Console, SEO, meta tags, search console, "
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://misty-fog-5874.on.fleek.co/" />
+        <meta property="og:title" content="Search Console - Como utilizar" />
+        <meta
+          property="og:description"
+          content="Pontos que devem ser levados em consideraçao para melhorar o SEO de sua página utilizando o Google Search Console"
+        />
+        <meta property="og:image" content="../src/assets/seo.svg" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://misty-fog-5874.on.fleek.co/"
+        />
+        <meta
+          property="twitter:title"
+          content="Search Console - Como utilizar"
+        />
+        <meta
+          property="twitter:description"
+          content="Pontos que devem ser levados em consideraçao para melhorar o SEO de sua página utilizando o Google Search Console"
+        />
+        <meta property="twitter:image" content="../src/assets/seo.svg" />
+      </head>
       <Header />
       <Container>
         <Content>
