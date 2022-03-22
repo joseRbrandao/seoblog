@@ -13,7 +13,7 @@ import iconseo from "../../assets/seo.svg";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Helmet>
         <title>HOME - Laboratório SEO</title>
         <meta
@@ -58,7 +58,7 @@ const Home = () => {
           </ImageContainer>
         </Content>
       </Container>
-    </div>
+    </>
   );
 };
 
