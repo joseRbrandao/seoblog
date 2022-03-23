@@ -17,6 +17,13 @@ const About = () => {
           content="seo, sitemap, robot.txt, meta tags, search console"
         />
       </Helmet>
+      <head>
+        <script
+          defer
+          data-domain="misty-fog-5874.on.fleek.co"
+          src="https://plausible.io/js/script.hash.js"
+        ></script>
+      </head>
       <Header />
       <Container>
         <Content>
