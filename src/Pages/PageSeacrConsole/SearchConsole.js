@@ -23,6 +23,11 @@ const SearchConsole = () => {
         />
       </Helmet>
       <head>
+        <script
+          defer
+          data-domain="misty-fog-5874.on.fleek.co"
+          src="https://plausible.io/js/plausible.js"
+        ></script>
         <meta
           name="keywords"
           content="Google Search Console, SEO, meta tags, search console, "
