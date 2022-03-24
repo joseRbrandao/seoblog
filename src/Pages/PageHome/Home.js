@@ -20,7 +20,11 @@ const Home = () => {
           name="description"
           content="Aqui eu estou testanto a descrição META e se está funcionando"
         />
-
+        <meta property="og:title" content="HOME - Laboratório SEO" />
+        <meta
+          property="og:description"
+          content="Aqui eu estou testanto a descrição META e se está funcionando"
+        />
         <meta
           name="keywords"
           content="seo, sitemap, robot.txt, meta tags, search console, blog"
