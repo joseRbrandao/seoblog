@@ -18,7 +18,7 @@ const About = () => {
         />
         <meta
           property="og:url"
-          content="https://misty-fog-5874.on.fleek.co/"
+          content="https://misty-fog-5874.on.fleek.co/#/about"
         ></meta>
       </Helmet>
       <head>
