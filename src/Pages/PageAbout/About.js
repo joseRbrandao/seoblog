@@ -7,11 +7,19 @@ const About = () => {
     <div>
       <Helmet>
         <title>SEO Blog - About</title>
-        <meta name="description" content="estudo de caso sobre SEO" />
+        <meta
+          name="og:description"
+          content="Teste da description - pagina about."
+        />
+        <meta property="og:title" content="og: SEO Blog - About"></meta>
         <meta
           name="keywords"
           content="seo, sitemap, robot.txt, meta tags, search console"
         />
+        <meta
+          property="og:url"
+          content="https://misty-fog-5874.on.fleek.co/"
+        ></meta>
       </Helmet>
       <head>
         <script
