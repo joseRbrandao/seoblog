@@ -7,11 +7,7 @@ const About = () => {
     <div>
       <Helmet>
         <title>SEO Blog - About</title>
-        <meta
-          name="description"
-          content="estudo de caso sobre SEO. metatags, title, description, react-helmet, reat-router-dom, 
-              google search console, site map, robot.tsx."
-        />
+        <meta name="description" content="estudo de caso sobre SEO" />
         <meta
           name="keywords"
           content="seo, sitemap, robot.txt, meta tags, search console"
