@@ -52,6 +52,11 @@ export const ImageContainer = styled.div`
   height: 500px;
   margin-top: 2rem;
 
+  image {
+    width: 720px;
+    height: 500px;
+  }
+
   @media (max-width: 920px) {
     width: 500px;
     height: 300px;

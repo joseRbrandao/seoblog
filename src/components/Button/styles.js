@@ -5,7 +5,7 @@ export const Container = styled.div`
     font-size: 1rem;
     font-weight: 600;
     /* margin: 0 0.75rem; */
-    color: var(--blue-500);
+    /* color: var(--blue-500); */
     border: none;
     background: transparent;
     transition: 0.2s;
