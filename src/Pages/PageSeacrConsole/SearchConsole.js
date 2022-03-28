@@ -21,6 +21,10 @@ const SearchConsole = () => {
           name="description"
           content="Pontos que devem ser levados em consideraçao para melhorar o SEO de sua página utilizando o Google Search Console"
         />
+        <link
+          rel="canonical"
+          href="https://misty-fog-5874.on.fleek.co/searchconsole"
+        />
       </Helmet>
       <head>
         <script

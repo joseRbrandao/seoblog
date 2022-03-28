@@ -20,6 +20,7 @@ const About = () => {
           property="og:url"
           content="https://misty-fog-5874.on.fleek.co/#/about"
         ></meta>
+        <link rel="canonical" href="https://misty-fog-5874.on.fleek.co/about" />
       </Helmet>
       <head>
         <script
