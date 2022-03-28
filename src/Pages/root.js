@@ -9,8 +9,8 @@ const Rotas = () => {
       <HashRouter>
         <Routes>
           <Route path="/" element={Home} />
-          <Route path="/about" element={About} />
-          <Route path="/searchconsole" element={SearchConsole} />
+          <Route path="!/about" element={About} />
+          <Route path="!/searchconsole" element={SearchConsole} />
         </Routes>
       </HashRouter>
     </>
